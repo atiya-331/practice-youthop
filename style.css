@@ -1,0 +1,197 @@
+body{
+    margin: 0px;
+    font-weight: 300;
+    font-family: open sans;
+}
+#header{
+    text-align: center;
+    padding-top: 150px;
+    font-size: 46px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    line-height: 35px;
+    direction: ltr;
+    box-sizing: border-box;
+    color: white;
+}
+
+#container{
+    background-image: url('../img/Tomb_of_Bibi_Jiwindi.jpg');
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    z-index: -10;
+}
+#layout{
+    position: absolute;
+    background-color: rgb(0, 0, 0, 0.5) ;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -5;
+}
+.contain-menu{
+    clear: both;
+    position: relative;
+    direction: ltr;
+} 
+#menu {
+    display: flex;
+    flex-flow: row wrap;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0;
+}
+@media (max-width: 991px){
+    .navbar-nav {
+            margin:0;
+    }
+
+.nav{
+    list-style: none;
+}
+ul{
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+    
+}
+}
+#menu li {
+    text-align: center;
+    display: block;
+   
+}
+#menu li a {
+    color: #999;
+    width: 150px;
+    padding: 15px 0;
+    margin: 0;
+    display: block;
+    border-bottom: 2px solid transparent;
+  
+}
+.navbar-nav>li>a {
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: 0;
+     
+}
+li{
+    direction: ltr;
+}
+a{
+    text-decoration: none;
+   
+}
+#menu li i {
+    font-size: 35px;
+    margin-bottom: 10px;
+    display: block;
+    width: auto;
+    height: auto;}
+
+
+*,{
+    box-sizing: border-box;
+}
+i{
+    font-style: italic;
+}
+#menu li {
+    text-align: center;
+}
+#menu li a{
+    color: #999;
+}
+
+.option{
+    border: white;
+    border-color: white;
+    color: black;
+}
+#section{
+    color: #ffffff;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    border-color: #e5e5e5;
+    display: block;
+    position: relative;
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+   
+   
+}
+.sf-field-taxonomy-regions{
+    font-size: 16px;
+    color: black;
+    font-weight: lighter;
+    text-align: left;
+}
+li{
+    display: inline-block;
+   
+}
+/* #wrap-section{
+    background: white;
+    width: 50%;
+    height: 50%;
+} */
+ul{
+    position: absolute;
+}
+#trophy{
+    line-height: 25px;
+    font-weight: lighter;
+   
+}
+
+#trophy :hover{
+    text-decoration: underline;
+     text-decoration-color:#999;
+     color: maroon;
+     
+  
+   
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+.navbar{
+    width: 100%;
+    padding: 20px;
+    position: fixed;
+    top: 0px;
+   transition: .5s;
+   text-align: center;
+   
+
+}
+.navbar a{
+ list-style: none;
+ display: inline-block;
+ padding: 10px 50px;
+
+ font-size: 24px;
+ font-family: sans-serif;
+ 
+
+    
+}
+
+
+
